@@ -7,4 +7,8 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  preview: {
+    host: true,
+    allowedHosts: ['developer-portfolio-1-k82w.onrender.com']
+  }
 })
